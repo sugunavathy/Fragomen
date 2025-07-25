@@ -1,0 +1,118 @@
+[
+  {
+    "ContainingType": "ShopSphere.Controllers.OrderItemControllers",
+    "Method": "CreateOrder",
+    "RelativePath": "api/OrderItemControllers/CreateOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orders",
+        "Type": "ShopSphere.Models.orders",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShopSphere.Controllers.OrderItemControllers",
+    "Method": "CreateOrderItems",
+    "RelativePath": "api/OrderItemControllers/CreateOrderItems",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "order_items",
+        "Type": "ShopSphere.Models.order_items",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShopSphere.Controllers.OrderItemControllers",
+    "Method": "DeleteOrderItem",
+    "RelativePath": "api/OrderItemControllers/DeleteOrderItem",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderItemId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShopSphere.Controllers.OrderItemControllers",
+    "Method": "GetOrder",
+    "RelativePath": "api/OrderItemControllers/GetOrder",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShopSphere.Controllers.OrderItemControllers",
+    "Method": "GetOrderID",
+    "RelativePath": "api/OrderItemControllers/GetOrderID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Order_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShopSphere.Controllers.OrderItemControllers",
+    "Method": "UpdateOrderDetails",
+    "RelativePath": "api/OrderItemControllers/UpdateOrderDetails",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "item_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "order_items",
+        "Type": "ShopSphere.Models.order_items",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShopSphere.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ShopSphere.WeatherForecast, ShopSphere, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
