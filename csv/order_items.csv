@@ -1,0 +1,5 @@
+item_id,order_id,product_name,quantity,state
+18,9,iPhone 13,1,Draft
+20,10,OnePlus Nord CE5,1,Draft
+21,10,Nivea,10,Draft
+22,10,realme GT 7,2,Submitted
